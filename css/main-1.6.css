@@ -177,9 +177,9 @@ body {
     line-height: 100%;
 }
 #introtext .date {
-    margin-top: 10px;
-    font-family: "futura_ltbook", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    font-size: 1em;
+    margin-top: 15px;
+    font-family: "VT323", cursive;
+    font-size: 4em;
 }
 
 /* ==============
@@ -373,7 +373,7 @@ section h2 {
         font-size: 3em;
     }
     #introtext .date {
-        font-size: 1.1em;
+        font-size: 4em;
         margin-top: 15px;
         margin-bottom: 20px;
     }
@@ -482,7 +482,7 @@ section h2 {
         font-size: 4em;
     }
     #introtext .date {
-        font-size: 2em;
+        font-size: 4em;
         margin-top: 15px;
         margin-bottom: 20px;
     }
@@ -559,7 +559,7 @@ section h2 {
     }
     #introtext .date {
 
-        font-size: 2.5em;
+        font-size: 4em;
         margin-top: 15px;
         margin-bottom: 20px;
     }
