@@ -10,10 +10,11 @@ rsvp.controller('RsvpCtrl', ['$scope', 'Rsvp', function($scope, Rsvp){
 		console.log(form);
 		Rsvp.save(form)
 			.$promise.then(function(result){
-				console.log(result);
 				$scope.submitted = true;
+				alert("Mulţumim!");
 			},
 			function(err){
+				alert("Eroare: ", err);
 				$scope.submit_error = err;
 			});
 	}
